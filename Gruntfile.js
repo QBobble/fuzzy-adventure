@@ -18,6 +18,7 @@ module.exports = function(grunt) {
         watch: {
             scripts: {
                 files: ["js/coffee/*.coffee"],
+                tasks: ["coffee"],
                 options: {
                     spawn: false
                 }
