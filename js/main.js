@@ -1,6 +1,12 @@
 (function() {
-  $(function() {
-    return $("body").html("Hey Six Revision readers!");
-  });
+  var test;
+
+  test = {
+    thing: {
+      error: "Howdy"
+    }
+  };
+
+  alert(test.thing.error);
 
 }).call(this);

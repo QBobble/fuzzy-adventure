@@ -1,2 +1,5 @@
-$ ->
-  $("body").html "Hey Six Revision readers!"
+test =
+	thing:
+		error: "Howdy"
+
+alert test.thing.error
